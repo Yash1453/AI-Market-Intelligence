@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""
-Streamlit App - Alias to AI Market Intelligence Dashboard
-Run with: streamlit run streamlit_app.py
-"""
+"""Run the local dashboard app."""
 
-# Import and run the dashboard
-from dashboard.app import *
+from dashboard.app import main
+
+
+if __name__ == "__main__":
+    main()
