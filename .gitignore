@@ -9,3 +9,10 @@ venv/
 outputs/
 memory/
 *.log
+.env
+market_bot/.env
+*.sqlite
+*.sqlite3
+market_bot/data/*.csv
+market_bot/reports/
+market_bot/logs/
